@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  /* Shorthand - background */
+  background: black url(img/solo-leveling-blue-3840x2160-17997.jpg) right center
+    no-repeat fixed;
+  background-size: cover;
+}
+
+.container {
+  background-color: #d1d1d1;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  /**/
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.input-quest {
+  flex: 1;
+  min-width: 150px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 2px solid #6a0dad;
+  border-radius: 10px;
+}
+
+.button-add-quest {
+  height: 40px;
+  padding: 5px 10px;
+  font-size: clamp(12px, 2vw, 15px);
+  white-space: nowrap;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #00aaff, #6a0dad);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-add-quest:hover {
+  background: linear-gradient(135deg, #33cfff, #8c39ff);
+  color: #e0e0e0;
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.8);
+}
+.button-add-quest:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 5px rgba(138, 43, 226, 0.8);
+  opacity: 0.8;
+}
+
+.list-quest {
+  width: 100%;
+  list-style: none;
+  margin-top: 20px;
+  margin-top: 30px;
+}
+.quest {
+  box-shadow: 1px 4px 10px rgba(138, 43, 226, 0.8);
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.quest:hover img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+img {
+  height: 30px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 1024px) {
+  .quest img {
+    opacity: 1; /* Torna os ícones visíveis em dispositivos móveis */
+  }
+}
+
+.done {
+  background-color: #6a0dad;
+  text-decoration: line-through;
+}
