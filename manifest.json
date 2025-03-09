@@ -1,0 +1,17 @@
+{
+  "name": "To Do List",
+  "short_name": "Anime To-Do",
+  "description": "O Anime To-Do List é um aplicativo web projetado para ajudar fãs de anime a organizarem suas tarefas de forma divertida e produtiva.",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "/img/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ]
+}
