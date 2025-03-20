@@ -8,10 +8,17 @@ const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "/style.css",
-  "/app.js",
-  "/img/checked.png",
   "/img/excluir.png",
+  "/img/checked.png",
+  "/img/solo-leveling-blue-3840x2160-17997.jpg",
+  "/manifest.json",
   "/script.js",
+  "/img/pwa_icon-48-48.png",
+  "/img/pwa_icon-72-72.png",
+  "/img/pwa_icon-192-192.png",
+  "/img/pwa_icon-512-512.png",
+  "/img/pwa_87.png",
+  "/img/favicon.ico",
 ];
 
 // Instalando e armazenando os arquivos no cache
