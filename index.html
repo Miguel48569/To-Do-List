@@ -3,7 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List</title>
+    <title>To Do List Anime</title>
+
+    <!-- Registro do Service Worker -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("pwabuilder-sw.js")
+          .then(() => console.log("Service Worker registrado com sucesso!"))
+          .catch((error) =>
+            console.log("Erro ao registrar Service Worker:", error)
+          );
+      }
+    </script>
+
+    <link rel="manifest" href="manifest.json" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +26,6 @@
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="container">
@@ -20,7 +33,7 @@
       <button class="button-add-quest">Registrar Quest</button>
       <ul class="list-quest"></ul>
     </div>
-  </body>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
