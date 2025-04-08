@@ -11,16 +11,17 @@ Uma lista de tarefas (To-Do List) simples e responsiva com uma temática de anim
 - **Temática de Anime**: Interface com elementos visuais de anime.
 - **Gerenciamento de Tarefas**: Adicionar e excluir tarefas.
 
-- 🚀 Funcionalidades da API
-GET /api/tarefas — Listar todas as tarefas
+ 🚀 Funcionalidades da API
 
-POST /api/tarefas — Criar uma nova tarefa
+-GET /api/tarefas — Listar todas as tarefas
 
-PUT /api/tarefas/:id — Atualizar uma tarefa
+-POST /api/tarefas — Criar uma nova tarefa
 
-DELETE /api/tarefas/:id — Remover uma tarefa
+-PUT /api/tarefas/:id — Atualizar uma tarefa
 
-A aplicação permite que usuários adicionem, editem, excluam e visualizem tarefas.
+-DELETE /api/tarefas/:id — Remover uma tarefa
+
+-A aplicação permite que usuários adicionem, editem, excluam e visualizem tarefas.
 Além da interface web, o projeto possui uma API REST que pode ser utilizada para manipular as tarefas programaticamente.
 
 ## Tecnologias Utilizadas
