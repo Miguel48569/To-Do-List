@@ -13,15 +13,15 @@ Uma lista de tarefas (To-Do List) simples e responsiva com uma temática de anim
 
  🚀 Funcionalidades da API
 
--GET /api/tarefas — Listar todas as tarefas
+- **GET /api/tarefas — Listar todas as tarefas
 
--POST /api/tarefas — Criar uma nova tarefa
+- **POST /api/tarefas — Criar uma nova tarefa
 
--PUT /api/tarefas/:id — Atualizar uma tarefa
+- **PUT /api/tarefas/:id — Atualizar uma tarefa
 
--DELETE /api/tarefas/:id — Remover uma tarefa
+- **DELETE /api/tarefas/:id — Remover uma tarefa
 
--A aplicação permite que usuários adicionem, editem, excluam e visualizem tarefas.
+- **A aplicação permite que usuários adicionem, editem, excluam e visualizem tarefas.
 Além da interface web, o projeto possui uma API REST que pode ser utilizada para manipular as tarefas programaticamente.
 
 ## Tecnologias Utilizadas
